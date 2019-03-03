@@ -24,10 +24,10 @@ const memoizedSum = memoization(sum);
 const memoizedMultmemoizedMult = memoization(multiply);
 
 console.log(memoizedSum(4, 2));
-console.log(memoizedAdd(2, 4));
-console.log(memoizedAdd(4, 2));
-console.log(memoizedAdd(4, 3));
-console.log(memoizedSum(4, 3));
 console.log(memoizedSum(2, 4));
 console.log(memoizedSum(4, 2));
 console.log(memoizedSum(4, 3));
+console.log(memoizedMultmemoizedMult(4, 3));
+console.log(memoizedMultmemoizedMult(2, 4));
+console.log(memoizedMultmemoizedMult(4, 2));
+console.log(memoizedMultmemoizedMult(4, 3));
